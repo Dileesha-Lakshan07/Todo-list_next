@@ -1,3 +1,5 @@
+import AddTodo from "@/component/todos/AddTodo";
+
 export default function Home() {
   return (
     <div className="w-screen py-20 flex justify-center flex-col items-center">
@@ -8,6 +10,7 @@ export default function Home() {
 
       <div className="flex justify-center flex-col items-center">
         {/*input.todo*/}
+        <AddTodo />
         {/*map todos*/}
       </div>
     </div>
